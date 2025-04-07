@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(227, 224, 224);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+
+  display: flex;
+  background-color: white;
+  padding: 10px 5%;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchbar {
+  background-color: rgb(236, 230, 230);
+
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.searchbar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+
+  background-color: transparent;
+
+}
+
+.links {
+
+  display: flex;
+  gap: 10px;
+
+}
+
+.links a {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(126, 125, 125);
+}
+
+.icon-btn-active :hover {
+  background-color: blue;
+  color: white;
+
+}
+
+.items {
+  display: flex;
+  background-color: white;
+  margin: 5px 10px;
+  padding: 10px 5%;
+  justify-content: center;
+
+
+
+}
+
+
+
+.kilo {
+  width: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  margin: 0 10px;
+  padding-right: 30px;
+
+  margin: 10px;
+}
+
+.kilo img {
+  width: 80px;
+  height: auto;
+  padding-top: 5px;
+}
+
+.kilo span {
+  font-size: 16px;
+  margin-top: 15px;
+
+}
+
+.kilo:nth-last-child(-n+2) {
+  padding-top: 25px;
+ 
+
+}
+
+.bigpricture {
+  margin: 10px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.bigpricture img {
+  width: 100%;
+
+}
+
+.minipicture {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+
+
+}
+
+.photo {
+  padding: 20px;
+ 
+
+  padding-top: 60px;
+
+
+}
+
+.minipicture b {
+
+  text-align: justify;
+
+
+
+}
+
+.mobilepicture{
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow: scroll;
+
+
+
+
+}
+
+
+.mobilepicture :hover{
+  transform: scale(1.1,1.1);
+  transition: 1;
+  transition-delay: 0.15s;
+}
+
+
+.mobile {
+  padding: 20px;
+  text-align: center;
+
+  padding-top: 60px;
+  transform: scale(1.1,1.1);
+  transition: 1;
+  transition-delay: 0.2s;
+
+}
+
+.mobile b {
+
+  text-align: justify;
+
+
+
+}
+
+.hr1 {
+  background-color: rgb(202, 195, 195);
+  height: 100px;
+  width: 100%;
+  display: flex;
+
+
+}
+
+.hr1 a {
+  color: black;
+}
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(43, 42, 42);
+
+
+}
+
+.last a {
+
+  text-decoration: none;
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+  list-style-type: none;
+  padding-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.last b {
+
+  text-decoration: none;
+  color: white;
+
 }
